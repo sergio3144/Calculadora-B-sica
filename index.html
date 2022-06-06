@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./estilos.css">
+    <title>Operaciones</title>
+</head>
+<body>
+    <h1 class="title-principal">OPERACIONES BASICAS</h1>
+    <main class="container">
+        <div class="formulario">
+            <form action="">
+                <h1>Sumar</h1>
+                <input type="text" class ="num1" id="suma1" placeholder="Número1">
+                <h1 style="margin: 0;">+</h1>
+                <input type="text" class ="num2" id="suma2" placeholder="Número2"> <br> <br>
+                <input type="submit" value="Calcular" class="btn">
+            </form>
+            <h1 class="operationBoxS"></h1>
+        </div>
+
+        <div class="formularioResta">
+            <form action="">
+                <h1>Restar</h1>
+                <input type="text" class="num1" id="resta1" placeholder="Número1">
+                <h1 style="margin: 0;">-</h1>
+                <input type="text" class="num2" id="resta2" placeholder="Número2"> <br> <br>
+                <input type="submit" value="Calcular" class="btn2">
+            </form>
+            <h1 class="operationBoxR"></h1>
+        </div>  
+        
+        <div class="formularioMulti">
+            <form action="">
+                <h1>Multiplicar</h1>
+                <input type="text" class="num1" id="Multi1" placeholder="Número1">
+                <h1 style="margin: 9px; font-size: 16px">x</h1>
+                <input type="text" class="num2" id="Multi2" placeholder="Número2"> <br> <br>
+                <input type="submit" value="Calcular" class="btn3">
+            </form>
+            <h1 class="operationBoxM"></h1>
+        </div>
+
+        <div class="formularioDivi">
+            <form action="">
+                <h1>Dividir</h1>
+                <input type="text" class="num1" id="Divi1" placeholder="Número1">
+                <h1 style="margin: 0; font-size: 30px;">÷</h1>
+                <input type="text" class="num2" id="Divi2" placeholder="Número2"> <br> <br>
+                <input type="submit" value="Calcular" class="btn4">
+            </form>
+            <h1 class="operationBoxD"></h1>
+        </div>
+    </main>
+    <script src="./app.js"></script>
+</body>
+</html>

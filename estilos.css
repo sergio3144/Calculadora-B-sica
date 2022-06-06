@@ -1,0 +1,52 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #A5BECC;
+}
+.container {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.formulario,.formularioResta, .formularioMulti {
+    margin-right: 20px;
+}
+.num1,.num2 {
+    width: 150px;
+    height: 40px;
+    outline: none;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+}
+.num1::placeholder {
+    font-size: 18px;
+}
+.num2::placeholder {
+    font-size: 18px;
+}
+.btn, .btn2, .btn3, .btn4 {
+    width: 125px;        
+    height: 35px;
+    background-color: #FFCD38;
+    border: none;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.title-principal {
+    text-align: center;
+    color: #F15412;
+    margin: 20px 0 50px 0;
+}
+@media(max-width: 800px) {
+    .container {
+        display: block;
+    }
+    .formulario,.formularioResta, .formularioMulti {
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+}
